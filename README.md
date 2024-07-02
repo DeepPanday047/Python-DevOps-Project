@@ -40,6 +40,8 @@ This project revolves around the following steps:
 
 Guide on setting up the application locally:
 
+## Original Creater 
+- Vishal Bulbule
 1. Clone this repository: `git clone https://github.com/vishal-bulbule/real-time-crick-score-app`
 
 ## Demo Video

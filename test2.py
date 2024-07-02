@@ -6,7 +6,11 @@ def fetch_cricket_scores():
 
     headers = {
         'x-rapidapi-key': '8cf6521a06msh2e1499b6f52c2b6p19f978jsn71b595fbe7fa',
+<<<<<<< HEAD
 		'x-rapidapi-host': 'cricbuzz-cricket.p.rapidapi.com' 
+=======
+		'x-rapidapi-host': 'cricbuzz-cricket.p.rapidapi.com'
+>>>>>>> 5e7b18b503e450c896fd0994e2b0949702c36b8f
     }
     response = requests.get(url, headers=headers)
     data = response.json()
