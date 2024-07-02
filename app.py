@@ -36,8 +36,8 @@ def fetch_upcoming_matches():
     url = "https://cricbuzz-cricket.p.rapidapi.com/schedule/v1/international"
 
     headers = {
-        "X-RapidAPI-Host": "cricbuzz-cricket.p.rapidapi.com",
-        "X-RapidAPI-Key": "1bd0a14833mshc18ed4be5953504p1236e8jsn709d3a0bc623"  # Replace with your RapidAPI key
+       'x-rapidapi-key': '8cf6521a06msh2e1499b6f52c2b6p19f978jsn71b595fbe7fa',
+		'x-rapidapi-host': 'cricbuzz-cricket.p.rapidapi.com'   # Replace with your RapidAPI key
     }
     #
     response = requests.get(url, headers=headers)
